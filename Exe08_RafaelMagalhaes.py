@@ -4,9 +4,10 @@
 
 total = 0
 
-num1 = (input("Digite o primeiro número: "))
-num2 = (input("Digite o segundo número: "))
-num3 = (input("Digite o terceiro número: "))
-num4 = (input("Digite o quarto número: "))
-num5 = (input("Digite o quinto número: "))
-
+for i in range(5):
+    num = int (input("Digite o primeiro número: "))
+    resposta = (input("Digite se você deseja que esse número seja incluido no total('S' para sim, 'N' para não): "))
+    resposta = resposta.lower
+    if resposta == 's':
+        total = total + num
+    
