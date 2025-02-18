@@ -5,9 +5,10 @@
 total = 0
 
 for i in range(5):
-    num = int (input("Digite o primeiro número: "))
-    resposta = (input("Digite se você deseja que esse número seja incluido no total('S' para sim, 'N' para não): "))
-    resposta = resposta.lower
+    num = int (input("Digite um número: "))
+    resposta =  str (input("Digite se você deseja que esse número seja incluido no total('S' para sim, 'N' para não): "))
+    resposta = resposta.lower()
     if resposta == 's':
         total = total + num
-    
+
+print("Total: {} FIM".format(total))
