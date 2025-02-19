@@ -8,15 +8,23 @@
 #3.	Conte e exiba o número de tarefas concluídas e não concluídas.
 
 
-numTarefa = (input("Digite quantas tarefas você deseja inserir: "))
+numTarefa = int (input("Digite quantas tarefas você deseja inserir: "))
 
 Tarefa = []
-infTarefa = []
+conclusaoTarefa = []
 
+contsim = 0
+contnao = 0
 for i in range(numTarefa):
 
     nomeTarefa = (input("Insira um nome para essa tarefa: "))
+    conclusaoTarefa = (input ("Essa tarefa está concluida? "))
+    conclusaoTarefa = conclusaoTarefa.lower()
+    if conclusaoTarefa == 'sim' or conclusaoTarefa == 's':
+        contsim =  1 + contsim
+    elif conclusaoTarefa == 'nao' or conclusaoTarefa == 'n' or conclusaoTarefa == 'não':
+        contnao = 1 + contnao
+    else:
+        print("Resposta Invalida")
 
-    infTarefa = (input ("Essa tarefa está concluida? "))
-
-    
+print("Existem {} tarefas concluidas, e {} tarefas não concluidas".format(contsim,contnao))
