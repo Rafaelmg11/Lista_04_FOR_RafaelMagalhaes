@@ -10,6 +10,13 @@
 
 numTarefa = (input("Digite quantas tarefas você deseja inserir: "))
 
-nomeTarefa = (input("Insira um nome para essa taref: "))
+Tarefa = []
+infTarefa = []
 
-infTarefa = (input ("Essa tarefa está concluida? "))
+for i in range(numTarefa):
+
+    nomeTarefa = (input("Insira um nome para essa tarefa: "))
+
+    infTarefa = (input ("Essa tarefa está concluida? "))
+
+    
