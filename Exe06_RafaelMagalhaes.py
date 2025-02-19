@@ -3,7 +3,12 @@
 
 num = int (input("Digite um número a baixo de 50: "))
 
-for i in range(50,num - 1, -1):
-     print(i)
+if num < 50:
+     for i in range(50,num - 1, -1):
+          print(i)
+else:
+     print("Número Invalido")
 
-aaaaaaaaaaaaaaaaaaaaaaa
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")
+
+#CODIGO OK

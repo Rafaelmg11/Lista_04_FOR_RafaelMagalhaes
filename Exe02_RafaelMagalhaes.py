@@ -5,3 +5,7 @@ num = int (input('Digite um número: '))
 
 for i in range(num):
     print(nome)
+
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")
+
+#CODIGO OK

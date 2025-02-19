@@ -8,3 +8,7 @@ for i in range(num):
     for i in nome:
         print(i)
         print('==')
+
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")
+
+#CODIGO OK

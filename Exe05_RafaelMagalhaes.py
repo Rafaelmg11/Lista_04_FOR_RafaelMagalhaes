@@ -2,8 +2,12 @@
 
 num = int (input("Digite o número que você deseja saber a tabuada: "))
 
-for i in range(11):
+for i in range(1,11):
     tabuada = num * i
     x = num * i
     print(num,"X",i,"=",tabuada)
+
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")
+
+#CODIGO OK
 

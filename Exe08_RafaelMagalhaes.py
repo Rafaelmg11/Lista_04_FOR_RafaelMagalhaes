@@ -11,4 +11,8 @@ for i in range(5):
     if resposta == 's':
         total = total + num
 
-print("Total: {} FIM".format(total))
+print("Total: {} ".format(total))
+
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")
+
+#CODIGO OK

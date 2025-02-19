@@ -10,3 +10,7 @@ if num < 10:
 else:
     for i in range(3):
         print("Número muito alto!")
+
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")
+
+#CODIGO OK

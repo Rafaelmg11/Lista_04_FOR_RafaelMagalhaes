@@ -3,3 +3,7 @@ nome = (input("Digite seu nome: "))
 
 for i in nome:
     print(i)
+
+print("FIM DO CODIGO --- Rafael de Almeida de Magalhães")
+
+#CODIGO OK
